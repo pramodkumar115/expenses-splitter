@@ -1,0 +1,2 @@
+# expenses-splitter
+MERN Application
