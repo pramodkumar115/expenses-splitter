@@ -2,12 +2,14 @@ import {model, Model, Schema} from "mongoose";
 
 
 export interface IUser {
+    _id?: string,
     emailId: string,
     password: string,
     userProfile: {
+        _id?: string,
         firstName: string,
         lastName: string,
-        defaultCcy: string
+        defaultCcy?: string
     }
 }
 
